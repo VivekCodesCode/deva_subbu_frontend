@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.search_button{
+    width: 100px;
+    height: 100px;
+}
+.navbar-content{
+    margin-left: -90px;
+    color: orange;
+  
+}
+.navbar{
+  width: 100% !important;
+ background-color: black !important;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form_button{
+  width: 95%;
+  background-color: black;
+  color: orange;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 720px) {
+    .navbar-content {
+      margin-left: 0px;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .user_form{
+    box-sizing: border-box;
+    margin: auto;
+   padding: 80px;
+   
+   
+    width: max-content;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
-  to {
-    transform: rotate(360deg);
+  .form_input{
+    position: relative !important;
+    width: 180%
   }
-}
+  .form_input2{
+    position: relative !important;
+    width: 120%
+  }
+  .form_input3{
+    position: relative !important;
+    width: 102%
+  }
+
+  @media only screen and (max-width: 720px) {
+    .form_input{
+      position: relative !important;
+      width: 100%
+    }
+    .form_input2{
+      position: relative !important;
+      width: 100%
+    }
+    .form_input3{
+      position: relative !important;
+      width: 102%
+    }
+    .user_form{
+      width: 90%;
+      padding: 50px;
+    }
+  
+  }
